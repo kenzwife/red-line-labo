@@ -1,0 +1,77 @@
+<h3>宿泊先一覧</h3>
+<h3>検索</h3>
+ <%= form_tag({controller:"camps",action:"index"}, method: :get) do %>
+   <%= text_field_tag :search %>
+   <%= submit_tag '検索する'  %>
+<% end %>
+
+<% if user_signed_in? %>
+<%= link_to "マイページへ", user_path(current_user.id) %>　
+<% end %>
+
+<%= link_to "新規投稿へ", new_camp_path %>
+<%= link_to "ルート一覧へ", tours_path %>
+<br>
+<%= page_entries_info @camps %>
+<div class="camps-container">
+  <% @camps.each do |ca| %>
+  <div class="camps">
+      <a href="/users/<%= ca.user.id %>"><%= ca.user.name %></a>
+      <%= image_tag ca.image_url, size: "250x200" if ca.image? %>
+      <%= ca.title %>
+      <%= ca.body %>
+      <%= ca.link %>
+      <%= ca.genre %>
+    <% if user_signed_in? %>
+      <% if current_user.already_gooded?(ca) %>
+          <%= link_to camp_good_path(id: ca.id, camp_id: ca.id), method: :delete do %>
+              <i class="fas fa-heart"></i><%= ca.goods.count %>
+          <% end %>
+      <% else %>
+          <%= link_to camp_goods_path(id: ca.id, camp_id: ca.id), method: :post do %>
+              <i class="far fa-heart"></i><%= ca.goods.count %>
+          <% end %>
+      <% end %>
+    <% else %>
+      <p>いいねの数 = </p><%= ca.goods.count %>
+    <% end %>
+      <%= ca.created_at %>
+      <%= link_to "詳細へ", camp_path(ca.id) %>
+      <% if user_signed_in? && current_user.id == ca.user_id %>
+        <%= link_to "編集する", edit_camp_path(ca.id) %>
+        <%= button_to "削除する", camp_path(ca.id), method: :delete %>
+      <% end %>
+  </div>
+  <% end %>
+</div>
+<%= paginate @camps %>
+<h3>ランキング</h3>
+  <% @rank_camps.each do |ca| %>
+  <div class="camps">
+      <a href="/users/<%= ca.user.id %>"><%= ca.user.name %></a>
+      <%= image_tag ca.image_url, size: "250x200" if ca.image? %>
+      <%= ca.title %>
+      <%= ca.body %>
+      <%= ca.link %>
+      <%= ca.genre %>
+    <% if user_signed_in? %>
+      <% if current_user.already_gooded?(ca) %>
+          <%= link_to camp_good_path(id: ca.id, camp_id: ca.id), method: :delete do %>
+              <i class="fas fa-heart"></i><%= ca.goods.count %>
+          <% end %>
+      <% else %>
+          <%= link_to camp_goods_path(id: ca.id, camp_id: ca.id), method: :post do %>
+              <i class="far fa-heart"></i><%= ca.goods.count %>
+          <% end %>
+      <% end %>
+    <% else %>
+      <p>いいねの数 = </p><%= ca.goods.count %>
+    <% end %>
+      <%= ca.created_at %>
+      <%= link_to "詳細へ", camp_path(ca.id) %>
+      <% if user_signed_in? && current_user.id == ca.user_id %>
+        <%= link_to "編集する", edit_camp_path(ca.id) %>
+        <%= button_to "削除する", camp_path(ca.id), method: :delete %>
+      <% end %>
+  </div>
+  <% end %>

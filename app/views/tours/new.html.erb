@@ -1,0 +1,37 @@
+<h3>新規投稿</h3>
+<%= form_for @tour do |f| %>
+  <div class="field">
+    <%= f.label :title %>
+    <%= f.text_field :title, :size => 40 %>
+  </div>
+
+  <div class="field">
+    <%= f.label :body %>
+    <%= f.text_field :body, :size => 140 %>
+  </div>
+  
+<div class="field">
+    <%= f.label :link %>
+    <%= f.text_field :link, :size => 140 %>
+  </div>
+
+  <div class="field">
+    <%= f.label :genre %>
+    <%= f.select :genre, 
+    [["北海道", "北海道"], 
+    ["東北", "東北"], 
+    ["関東", "関東"],
+    ["中部", "中部"],
+    ["関西", "関西"],
+    ["四国", "四国"],
+    ["九州", "九州"],
+    ["沖縄", "沖縄"]], include_blank: "選択して下さい" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :image %>
+    <%= f.file_field :image %>
+  </div>
+  <%= f.submit "投稿する" %>
+<% end %>
+<%= link_to "投稿一覧に戻る", tours_path %>

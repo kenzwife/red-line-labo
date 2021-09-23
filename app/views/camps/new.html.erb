@@ -1,0 +1,37 @@
+<h3>新規投稿</h3>
+<%= form_for @camp do |k| %>
+  <div class="field">
+    <%= k.label :title %>
+    <%= k.text_field :title, :size => 40 %>
+  </div>
+
+  <div class="field">
+    <%= k.label :body %>
+    <%= k.text_field :body, :size => 140 %>
+  </div>
+  
+<div class="field">
+    <%= k.label :link %>
+    <%= k.text_field :link, :size => 140 %>
+  </div>
+
+  <div class="field">
+    <%= k.label :genre %>
+    <%= k.select :genre, 
+    [["北海道", "北海道"], 
+    ["東北", "東北"], 
+    ["関東", "関東"],
+    ["中部", "中部"],
+    ["関西", "関西"],
+    ["四国", "四国"],
+    ["九州", "九州"],
+    ["沖縄", "沖縄"]], include_blank: "選択して下さい" %>
+  </div>
+
+  <div class="field">
+    <%= k.label :image %>
+    <%= k.file_field :image %>
+  </div>
+  <%= k.submit "投稿する" %>
+<% end %>
+<%= link_to "投稿一覧に戻る", camps_path %>

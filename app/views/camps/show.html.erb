@@ -1,0 +1,46 @@
+<div class="camp">
+  <p><%= @camp.title %></p>
+  <p><%= @camp.body %></p>
+  <p><%= link_to @camp.link %></p>
+  <p><%= @camp.genre %></p>
+  <p><%= image_tag @camp.image_url, size: "250x200" if @camp.image? %></p>
+  <p><%= @camp.created_at %></p>
+  <% if user_signed_in? %>
+      <% if current_user.already_gooded?(@camp) %>
+          <%= link_to camp_good_path(@camp), method: :delete do %>
+             <i class="fas fa-heart"></i><%= @camp.goods.count %>          
+          <% end %>
+      <% else %>
+          <%= link_to camp_goods_path(@camp), method: :post do %>
+             <i class="far fa-heart"></i><%= @camp.goods.count %>
+          <% end %>
+      <% end %>
+  <% else %>
+      <p>いいねの数 = </p><%= @camp.goods.count %>
+  <% end %>
+</div>
+
+<div class="review-wrapper">
+  <p>コメント一覧</p>
+  <% @reviews.each do |c| %>
+    <div>
+      <%= c.user.email unless c.user.blank? %>
+      <br>
+      <%= c.content %>
+    </div>
+      <br>
+  <% end %>
+
+  <% if user_signed_in? %>
+    <%= form_with(model: [@camp, @review], local: true) do |k| %>
+      <%= k.text_area :content %>
+      <%= button_tag type: "submit" do %>
+        <i class="far fa-comments"></i> コメントする
+      <% end %>
+    <% end %>
+  <%= link_to "マイページへ", user_path(current_user.id) %>　
+  <% end %>
+</div>
+
+<%= link_to "投稿一覧に戻る", camps_path %>
+<%= link_to "編集する", edit_camp_path(@camp.id) %>
