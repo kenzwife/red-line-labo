@@ -66,8 +66,8 @@
     position: relative;
     padding: 0.5em 0.7em;
     margin: 2em 0;
-    background: #e6f4ff;
-    color: #5c98d4;
+    background: red;
+    color: #fff;
     font-weight: bold;
 }
 .box1:after,.box2:after {
@@ -76,7 +76,7 @@
     top: 100%;
     left: 30px;
     border: 15px solid transparent;
-    border-top: 15px solid #e6f4ff;
+    border-top: 15px solid red;
     width: 0;
     height: 0;
 }
