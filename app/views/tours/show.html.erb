@@ -1,51 +1,62 @@
-<div class="tour">
-  <p><%= @tour.title %></p>
-  <p><%= @tour.body %></p>
-  <p><%= link_to @tour.link %></p>
-  <p><%= @tour.genre %></p>
-  <p><%= image_tag @tour.image_url, size: "250x200" if @tour.image? %></p>
-  <p><%= @tour.created_at %></p>
-  <% if user_signed_in? %>
-      <% if current_user.already_liked?(@tour) %>
-          <%= link_to tour_like_path(@tour), method: :delete do %>
-             <i class="fas fa-heart"></i><%= @tour.likes.count %>          
-          <% end %>
-      <% else %>
-          <%= link_to tour_likes_path(@tour), method: :post do %>
-             <i class="far fa-heart"></i><%= @tour.likes.count %>
-          <% end %>
+<html lang="ja"><!--言語の指定-->
+  <head><!--ページに表示されない情報(サイトの裏側の設定)-->
+    <meta charset="utf-8">
+    <title></title><!--ブラウザのタブのタイトルを指定-->
+    <link rel="stylesheet" href="/stylesheets/tours.scss">
+  </head>
+  <body>
+      <div class="tour">
+        <p><%= @tour.title %></p>
+        <p><%= @tour.body %></p>
+        <p><%= @tour.genre %></p>
+        <% if @tour.link? %>
+          <p><%= link_to "サイトへ",@tour.link %></p>
+        <% end %>
+        <p><%= image_tag @tour.image_url, size: "500x500" if @tour.image? %></p>
+        <a href="/users/<%= @tour.user.id %>"><i class="fas fa-user-circle"></i><%= @tour.user.name %></a>
+        <p><%= @tour.created_at.to_s(:datetime_jp) %></p>
+        <% if user_signed_in? %>
+            <% if current_user.already_liked?(@tour) %>
+                <%= link_to tour_like_path(@tour), method: :delete do %>
+                   <i class="fas fa-heart"></i><%= @tour.likes.count %>          
+                <% end %>
+            <% else %>
+                <%= link_to tour_likes_path(@tour), method: :post do %>
+                   <i class="far fa-heart"></i><%= @tour.likes.count %>
+                <% end %>
+            <% end %>
+        <% else %>
+            <i class="far fa-heart"></i><%= @tour.likes.count %>
+        <% end %>
+      </div>
+
+      <h2>いいねしたユーザー</h2>
+      <% @tour.liked_users.each do |user| %>
+        <a href="/users/<%= user.id %>"><i class="fas fa-user-circle"></i><%= user.name %></a>
       <% end %>
-  <% else %>
-      <p>いいねの数 = </p><%= @tour.likes.count %>
-  <% end %>
-</div>
 
-<h2>いいねしたユーザー</h2>
-<% @tour.liked_users.each do |user| %>
-  <li><%= user.email %></li>
-<% end %>
+      <div class="comment-wrapper">
+        <h2>コメント一覧</h2>
+        <% @comments.each do |d| %>
+          <div>
+            <a href="/users/<%= d.user.id %>"><i class="fas fa-user-circle"></i><%= d.user.name unless d.user.blank? %></a>
+            <br>
+            <%= d.content %>
+          </div>
+        <% end %>
 
-<div class="comment-wrapper">
-  <p>コメント一覧</p>
-  <% @comments.each do |d| %>
-    <div>
-      <%= d.user.email unless d.user.blank? %>
-      <br>
-      <%= d.content %>
-    </div>
-      <br>
-  <% end %>
+        <% if user_signed_in? %>
+          <%= form_with(model: [@tour, @comment], local: true) do |f| %>
+            <%= f.text_area :content %>
+            <%= button_tag type: "submit" do %>
+              <i class="far fa-comments"></i> コメントする
+            <% end %>
+          <% end %>
+        <%= link_to "マイページへ", user_path(current_user.id) %>　
+        <% end %>
+      </div>
 
-  <% if user_signed_in? %>
-    <%= form_with(model: [@tour, @comment], local: true) do |f| %>
-      <%= f.text_area :content %>
-      <%= button_tag type: "submit" do %>
-        <i class="far fa-comments"></i> コメントする
-      <% end %>
-    <% end %>
-  <%= link_to "マイページへ", user_path(current_user.id) %>　
-  <% end %>
-</div>
-
-<%= link_to "投稿一覧に戻る", tours_path %>
-<%= link_to "編集する", edit_tour_path(@tour.id) %>
+      <%= link_to "投稿一覧に戻る", tours_path %>
+      <%= link_to "編集する", edit_tour_path(@tour.id) %>
+  </body>
+</html>

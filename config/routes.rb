@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   get 'tours/destroy'
   get 'tours/show'
   get 'tours/index2'
+  get 'hello/index'
+  get "hello/about"=>"hello#about",as:"hello_about"
   devise_for :users, controllers: {   
   registrations: 'users/registrations',
   sessions: 'users/sessions' }
@@ -19,5 +21,5 @@ Rails.application.routes.draw do
     resources :reviews, only: [:create]
   end
 
-  root 'tours#index'
+  root 'hello#index'
 end  

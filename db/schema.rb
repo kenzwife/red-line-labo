@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_09_23_004047) do
+ActiveRecord::Schema.define(version: 2021_10_16_090356) do
 
   create_table "camps", force: :cascade do |t|
     t.string "title"
@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 2021_09_23_004047) do
     t.datetime "updated_at", precision: 6, null: false
     t.integer "user_id"
     t.string "image"
+    t.string "site"
   end
 
   create_table "comments", force: :cascade do |t|
@@ -70,6 +71,7 @@ ActiveRecord::Schema.define(version: 2021_09_23_004047) do
     t.datetime "updated_at", precision: 6, null: false
     t.string "image"
     t.integer "user_id"
+    t.string "site"
   end
 
   create_table "users", force: :cascade do |t|

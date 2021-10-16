@@ -1,14 +1,20 @@
 <%= form_for @camp do |f| %>
-
+  <div class="field">
     <%= f.label :title %>
     <%= f.text_field :title, :size => 40 %>
+  </div>
 
+  <div class="field">
     <%= f.label :body %>
     <%= f.text_field :body, :size => 140 %>
+  </div>
 
+  <div class="field">
     <%= f.label :link %>
     <%= f.text_field :link, :size => 140 %>
+  </div>
 
+  <div class="field">
     <%= f.label :genre %>
     <%= f.select :genre,
     [["北海道", "北海道"],
@@ -19,7 +25,19 @@
     ["四国", "四国"],
     ["九州", "九州"],
     ["沖縄", "沖縄"]], include_blank: "選択して下さい" %>
+  </div>
 
+  <div class="field">
+    <%= f.label :site %>
+    <%= f.select :site, 
+    [["キャンプ場", "キャンプ場"], 
+    ["ホテル", "ホテル"], 
+    ["旅館", "旅館"],
+    ["ネットカフェ", "ネットカフェ"],
+    ["その他", "その他"]], include_blank: "選択して下さい" %>
+  </div>
+
+  <div class="field">
     <%= f.label :image %>
     <%= f.file_field :image %>
   </div>    

@@ -8,27 +8,39 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-  
-    <% if user_signed_in? %>
-      <li><%= button_to 'ログアウト', destroy_user_session_path, method: :delete %></li>
-    <% else %>
-      <li><%= link_to "新規登録", new_user_registration_path %></li>
-      <li><%= link_to "ログイン", new_user_session_path %></li>
-    <% end %> 
   </head>
 
   <body>
     <header>
-      <h1>GeekCycle</h1>
-      <div class="header-list">
-      <ul>
-        <li><%= link_to "ホーム", tours_path %></li>
-        <li><%= link_to "新規投稿",tours_new_path %></li>
-      </ul>
-      </div>
+      <h1>  <%= link_to image_tag("/images/RLL.png"), "/" %></h1>
+        <div class="hamburger-menu">
+          <input type="checkbox" id="menu-btn-check">
+          <label for="menu-btn-check" class="menu-btn"><span></span></label>
+          <div class="menu-content">
+            <ul>
+              <% if user_signed_in? %>
+                <li><%= link_to "新規投稿",tours_new_path %></li>
+                <li><%= link_to 'ログアウト', destroy_user_session_path, method: :delete %></li>
+                <li><%= link_to "about", hello_about_path %></li>
+                <li><%= link_to "ツアー", tours_path %></li>
+                <li><%= link_to "宿泊先", camps_path %></li>
+              <% else %>
+                <li><%= link_to "新規登録", new_user_registration_path %></li>
+                <li><%= link_to "ログイン", new_user_session_path %></li>
+                <li><%= link_to "about", hello_about_path%></li>
+                <li><%= link_to "ツアー", tours_path %></li>
+                <li><%= link_to "宿泊先", camps_path %></li>
+              <% end %> 
+            </ul>
+          </div>
+        </div>
     </header>
     <main>
       <%= yield %>
     </main>
+    <footer>
+     <p>Copyright © Kenji Ando All Rights Reserved.</p>
+    </footer>
   </body>
+
 </html>

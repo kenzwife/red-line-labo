@@ -1,0 +1,154 @@
+// Place all the styles related to the hello controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.hello1{
+    background-image: url("/images/header1.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.hello-text1{
+    color: red;
+    writing-mode: vertical-rl;
+    font-size: 3.2rem;
+    position: absolute;
+    left: 20px;
+    top: 250px;
+    z-index: 60;
+    display: flex;
+    flex-direction: column;
+    font-weight: 100;
+    letter-spacing: 0.04em;
+    line-height: 1.4;
+    
+}
+.hello2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.hello2-image {
+    width: 55%;
+    height: auto;
+}
+.hello-text2 {
+    font-size: 1.4em;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.abouttour,.aboutcamp {
+    padding: 30px;
+    width: 50%;
+    background-color: #fff;
+}
+.tourimage,.campimage{
+    max-width: 100%;
+    height: auto;
+}
+
+@media not all and (min-width: 768px) {
+    .abouttour,.aboutcamp,.hello2-image{
+        width: 100%;
+    }
+    .abouttour:not(:last-child),.aboutcamp:not(:last-child){
+        margin-bottom: 30px;
+    }
+}
+
+.box1,.box2 {
+    position: relative;
+    padding: 0.5em 0.7em;
+    margin: 2em 0;
+    background: #e6f4ff;
+    color: #5c98d4;
+    font-weight: bold;
+}
+.box1:after,.box2:after {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 30px;
+    border: 15px solid transparent;
+    border-top: 15px solid #e6f4ff;
+    width: 0;
+    height: 0;
+}
+.box1 p,.box2 p {
+    margin: 0; 
+    padding: 0;
+}
+
+/*まずはお決まりのボックスサイズ算出をborer-boxに */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a.btn-border {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+a.btn-border {
+    border-radius: 0;
+  }
+  
+  a.btn-border:before,
+  a.btn-border:after {
+    position: absolute;
+  
+    width: 100%;
+    height: 2px;
+  
+    content: '';
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  
+    background: #000;
+  }
+  
+  a.btn-border:before {
+    top: 0;
+    left: 0;
+  }
+  
+  a.btn-border:after {
+    right: 0;
+    bottom: 0;
+  }
+  
+  a.btn-border:hover:before,
+  a.btn-border:hover:after {
+    width: 0;
+  }

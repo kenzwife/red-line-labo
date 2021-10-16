@@ -8,7 +8,7 @@ class CampsController < ApplicationController
       @camps = Camp.all
     end
     @rank_camps = Camp.all.sort {|a,b| b.gooded_users.count <=> a.gooded_users.count}.first(3)
-    @camps = @camps.page(params[:page]).per(3)
+    @camps = @camps.page(params[:page]).per(9)
   end
 
   def new

@@ -15,17 +15,28 @@
     <%= f.text_field :link, :size => 140 %>
   </div>
 
-  <div class="field">
+<div class="field">
     <%= f.label :genre %>
-    <%= f.select :genre, 
-    [["北海道", "北海道"], 
-    ["東北", "東北"], 
+    <%= f.select :genre,
+    [["北海道", "北海道"],
+    ["東北", "東北"],
     ["関東", "関東"],
     ["中部", "中部"],
     ["関西", "関西"],
     ["四国", "四国"],
     ["九州", "九州"],
     ["沖縄", "沖縄"]], include_blank: "選択して下さい" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :site %>
+    <%= f.select :site, 
+    [["Garmin Connect", "Garmin Connect"], 
+    ["Strava", "Strava"], 
+    ["Routehub", "Routehub"],
+    ["Ride with GPS", "Ride with GPS"],
+    ["Googleマイマップ", "Googleマイマップ"],
+    ["その他", "その他"]], include_blank: "選択して下さい" %>
   </div>
 
   <div class="field">

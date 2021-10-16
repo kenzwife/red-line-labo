@@ -13,3 +13,123 @@
  *= require_tree .
  *= require_self
  */
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    position: relative;
+    font-family: 'Avenir','Helvetica Neue','Helvetica','Arial',
+    'Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,
+    'ＭＳ Ｐゴシック','MS PGothic',sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    font-weight: bold;
+    display: flex;
+}
+header h1 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+header a {
+    color: #b61919;
+    text-decoration: none;
+}
+.menu-btn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+    cursor: pointer;
+}
+.menu-btn span,
+.menu-btn span:before,
+.menu-btn span:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 25px;
+    border-radius: 3px;
+    background-color: #000000;
+    position: absolute;
+}
+.menu-btn span:before {
+    bottom: 8px;
+}
+.menu-btn span:after {
+    top: 8px;
+}
+#menu-btn-check:checked ~ .menu-btn span {
+    background-color: rgba(255, 255, 255, 0);/*メニューオープン時は真ん中の線を透明にする*/
+}
+#menu-btn-check:checked ~ .menu-btn span::before {
+    bottom: 0;
+    transform: rotate(45deg);
+    transition: all 0.5s;
+}
+#menu-btn-check:checked ~ .menu-btn span::after {
+    top: 0;
+    transform: rotate(-45deg);
+    transition: all 0.5s;
+}
+#menu-btn-check {
+    display: none;
+}
+#menu-btn-check:checked ~ .menu-content {
+    left: 0;
+}
+
+.menu-content {
+    width: 100%;
+    height: 40%;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    z-index: 80;
+    background-color: #b61919;
+    transition: all 0.4s;
+}
+.menu-content ul {
+    padding: 70px 10px 0;
+}
+.menu-content ul li {
+    border-bottom: solid 1px #ffffff;
+    list-style: none;
+}
+.menu-content ul li a {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    box-sizing: border-box;
+    color:#ffffff;
+    text-decoration: none;
+    padding: 9px 15px 10px 0;
+    position: relative;
+}
+.menu-content ul li a::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-top: solid 2px #ffffff;
+    border-right: solid 2px #ffffff;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 11px;
+    top: 16px;
+}
+footer {
+    color: brown;
+    height: 30px;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}

@@ -4,12 +4,12 @@ class ToursController < ApplicationController
     @tours = Tour.all
     if params[:search] != nil && params[:search] != ''
       search = params[:search]
-      @tours = Tour.joins(:user).where("title LIKE ? OR body LIKE ? OR name LIKE ?" , "%#{search}%", "%#{search}%", "%#{search}%")
+      @tours = Tour.joins(:user).where("title LIKE ? OR body LIKE ? OR name LIKE ? OR site LIKE ?" , "%#{search}%", "%#{search}%", "%#{search}%", "%#{search}%")
     else
       @tours = Tour.all
     end
     @rank_tours = Tour.all.sort {|a,b| b.liked_users.count <=> a.liked_users.count}.first(3)
-    @tours = @tours.page(params[:page]).per(3)
+    @tours = @tours.page(params[:page]).per(9)
   end
 
   def new
@@ -57,6 +57,6 @@ class ToursController < ApplicationController
 
   private
   def tour_params
-    params.require(:tour).permit(:title, :body, :genre, :link, :image)
+    params.require(:tour).permit(:title, :body, :genre, :link, :image, :site)
   end
 end
