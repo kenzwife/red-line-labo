@@ -19,22 +19,35 @@
 }
 body{
     position: relative;
-    font-family: 'Avenir','Helvetica Neue','Helvetica','Arial',
-    'Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,
-    'ＭＳ Ｐゴシック','MS PGothic',sans-serif;
+    font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
     display: flex;
     flex-direction: column;
+    background-color: tomato;
 }
 header {
     font-weight: bold;
     display: flex;
+    background-color: #fff;
+    align-items: center;
 }
-header h1 {
+.menu  {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    right: 50%;
+}
+.menu li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
     margin-top: 10px;
     margin-left: 10px;
 }
 header a {
-    color: #b61919;
+    color: tomato;
     text-decoration: none;
 }
 .menu-btn {
@@ -88,12 +101,12 @@ header a {
 
 .menu-content {
     width: 100%;
-    height: 40%;
+    height: 50%;
     position: fixed;
     top: 0;
     left: 100%;
     z-index: 80;
-    background-color: #b61919;
+    background-color: red;
     transition: all 0.4s;
 }
 .menu-content ul {
@@ -125,11 +138,12 @@ header a {
     top: 16px;
 }
 footer {
-    color: brown;
+    color: aliceblue;
     height: 30px;
     bottom: 0;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    position: absolute;
 }

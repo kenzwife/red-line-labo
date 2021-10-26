@@ -4,52 +4,54 @@
     <title></title><!--ブラウザのタブのタイトルを指定-->
     <link rel="stylesheet" href="/stylesheets/tours.scss">
   </head>
-  <body>
+  <main>
+   <div class="main1">
     <h3>ルート一覧</h3>
-    <h3>検索</h3>
      <%= form_tag({controller:"tours",action:"index"}, method: :get) do %>
        <%= text_field_tag :search %>
-       <%= submit_tag '検索する'  %>
+       <button type="submit" class="button1"> 
+        <i class="fas fa-search"></i> 検索
+       </button>
     <% end %>
-
-    <% if user_signed_in? %>
-    <%= link_to "マイページへ", user_path(current_user.id) %>　
-    <% end %>
-
+   </div>
+   <div class="main2">
     <%= link_to "新規投稿へ", new_tour_path %>
-    <%= link_to "宿泊先一覧へ", camps_path %>
-    <br>
+   </div>
+
     <%= page_entries_info @tours %>
     <div class="tours-container">
       <% @tours.each do |t| %>
       <div class="tours">
+        <div class="tours1">
           <%= t.title %>
-          <%= t.genre %>
+          <i class="fas fa-map-marker-alt"></i><%= t.genre %>
+        </div>
           <% if t.image? %>
             <%= link_to (image_tag t.image_url, size: "300x300"), tour_path(t.id)  %>
           <% else %>
             <%= link_to (image_tag "/images/no-image.jpg"), tour_path(t.id) %>
           <% end %>
-          <a href="/users/<%= t.user.id %>"><i class="fas fa-user-circle"></i><%= t.user.name %></a>
-          <%= t.site %>
-        <% if user_signed_in? %>
-          <% if current_user.already_liked?(t) %>
-              <%= link_to tour_like_path(id: t.id, tour_id: t.id), method: :delete do %>
-                  <i class="fas fa-heart"></i><%= t.likes.count %>
-              <% end %>
+        <div class="tours2">
+            <a href="/users/<%= t.user.id %>"><i class="fas fa-user-circle"></i><%= t.user.name %></a>
+            <%= t.site %>
+          <% if user_signed_in? %>
+            <% if current_user.already_liked?(t) %>
+                <%= link_to tour_like_path(id: t.id, tour_id: t.id), method: :delete do %>
+                    <i class="fas fa-heart"></i><%= t.likes.count %>
+                <% end %>
+            <% else %>
+                <%= link_to tour_likes_path(id: t.id, tour_id: t.id), method: :post do %>
+                    <i class="far fa-heart"></i><%= t.likes.count %>
+                <% end %>
+            <% end %>
           <% else %>
-              <%= link_to tour_likes_path(id: t.id, tour_id: t.id), method: :post do %>
-                  <i class="far fa-heart"></i><%= t.likes.count %>
-              <% end %>
+            <i class="fas fa-heart"></i><%= t.likes.count %>
           <% end %>
-        <% else %>
-          <i class="fas fa-heart"></i><%= t.likes.count %>
-        <% end %>
-          <%= t.created_at.to_s(:datetime_jp) %>
-          <% if user_signed_in? && current_user.id == t.user_id %>
-            <%= link_to "編集する", edit_tour_path(t.id) %>
-            <%= button_to "削除する", tour_path(t.id), method: :delete %>
-          <% end %>
+            <%= t.created_at.to_s(:datetime_jp) %>
+            <% if user_signed_in? && current_user.id == t.user_id %>
+              <%= link_to "編集する", edit_tour_path(t.id) %>
+            <% end %>
+        </div>
       </div>
       <% end %>
     </div>
@@ -84,14 +86,10 @@
         <% end %>
           <%= t.created_at.to_s(:datetime_jp) %>
           <%= link_to "詳細へ", tour_path(t.id) %>
-          <% if user_signed_in? && current_user.id == t.user_id %>
-            <%= link_to "編集する", edit_tour_path(t.id) %>
-            <%= button_to "削除する", tour_path(t.id), method: :delete %>
-          <% end %>
       </div>
       <% end %>
     </div>
 
-  </body>
+  </main>
 </html>
 

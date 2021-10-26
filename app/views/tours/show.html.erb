@@ -5,16 +5,12 @@
     <link rel="stylesheet" href="/stylesheets/tours.scss">
   </head>
   <body>
-      <div class="tour">
-        <p><%= @tour.title %></p>
-        <p><%= @tour.body %></p>
-        <p><%= @tour.genre %></p>
-        <% if @tour.link? %>
-          <p><%= link_to "サイトへ",@tour.link %></p>
-        <% end %>
+      <div class="tours-show">
+       <div class="show-image">
+        <h1><%= @tour.title %></h1>
+        <h3><i class="fas fa-map-marker-alt"></i><%= @tour.genre %></h3>
+        posted by <a href="/users/<%= @tour.user.id %>"><i class="fas fa-user-circle"></i><%= @tour.user.name %></a>
         <p><%= image_tag @tour.image_url, size: "500x500" if @tour.image? %></p>
-        <a href="/users/<%= @tour.user.id %>"><i class="fas fa-user-circle"></i><%= @tour.user.name %></a>
-        <p><%= @tour.created_at.to_s(:datetime_jp) %></p>
         <% if user_signed_in? %>
             <% if current_user.already_liked?(@tour) %>
                 <%= link_to tour_like_path(@tour), method: :delete do %>
@@ -28,13 +24,26 @@
         <% else %>
             <i class="far fa-heart"></i><%= @tour.likes.count %>
         <% end %>
+        <p><%= @tour.created_at.to_s(:datetime_jp) %></p>
+       </div>
+       <div class="show-text1">
+        <p><%= @tour.body %></p>
+        <% if @tour.link? %>
+          <p><%= link_to "サイトへ",@tour.link %></p>
+        <% end %>
+       </div>
+       <div class="show-text2">
+        <% if user_signed_in?  %>
+          <%= button_to "削除する", tour_path(current_user.id), method: :delete %>
+        <% end %>
+       </div>
       </div>
-
+    <div class="good-wrapper">
       <h2>いいねしたユーザー</h2>
       <% @tour.liked_users.each do |user| %>
         <a href="/users/<%= user.id %>"><i class="fas fa-user-circle"></i><%= user.name %></a>
       <% end %>
-
+    </div>
       <div class="comment-wrapper">
         <h2>コメント一覧</h2>
         <% @comments.each do |d| %>
@@ -44,7 +53,6 @@
             <%= d.content %>
           </div>
         <% end %>
-
         <% if user_signed_in? %>
           <%= form_with(model: [@tour, @comment], local: true) do |f| %>
             <%= f.text_area :content %>
@@ -57,6 +65,5 @@
       </div>
 
       <%= link_to "投稿一覧に戻る", tours_path %>
-      <%= link_to "編集する", edit_tour_path(@tour.id) %>
   </body>
 </html>

@@ -12,28 +12,29 @@
 
   <body>
     <header>
-      <h1>  <%= link_to image_tag("/images/RLL.png"), "/" %></h1>
-        <div class="hamburger-menu">
-          <input type="checkbox" id="menu-btn-check">
-          <label for="menu-btn-check" class="menu-btn"><span></span></label>
-          <div class="menu-content">
-            <ul>
-              <% if user_signed_in? %>
-                <li><%= link_to "新規投稿",tours_new_path %></li>
-                <li><%= link_to 'ログアウト', destroy_user_session_path, method: :delete %></li>
-                <li><%= link_to "about", hello_about_path %></li>
-                <li><%= link_to "ツアー", tours_path %></li>
-                <li><%= link_to "宿泊先", camps_path %></li>
-              <% else %>
-                <li><%= link_to "新規登録", new_user_registration_path %></li>
-                <li><%= link_to "ログイン", new_user_session_path %></li>
-                <li><%= link_to "about", hello_about_path%></li>
-                <li><%= link_to "ツアー", tours_path %></li>
-                <li><%= link_to "宿泊先", camps_path %></li>
-              <% end %> 
-            </ul>
-          </div>
+      <a><%= link_to image_tag("/images/RLL3.png"), "/" %></a>
+      </div>
+      <div class="hamburger-menu">
+        <input type="checkbox" id="menu-btn-check">
+        <label for="menu-btn-check" class="menu-btn"><span></span></label>
+        <div class="menu-content">
+          <ul>
+            <% if user_signed_in? %>
+              <li><%= link_to "マイページへ", user_path(current_user.id) %></li>
+              <li><%= link_to "about", hello_about_path %></li>
+              <li><%= link_to "ツアー", tours_path %></li>
+              <li><%= link_to "宿泊先", camps_path %></li>
+              <li><%= link_to 'ログアウト', destroy_user_session_path, method: :delete %></li>
+            <% else %>
+              <li><%= link_to "新規登録", new_user_registration_path %></li>
+              <li><%= link_to "ログイン", new_user_session_path %></li>
+              <li><%= link_to "about", hello_about_path%></li>
+              <li><%= link_to "ツアー", tours_path %></li>
+              <li><%= link_to "宿泊先", camps_path %></li>
+            <% end %> 
+          </ul>
         </div>
+      </div>
     </header>
     <main>
       <%= yield %>
