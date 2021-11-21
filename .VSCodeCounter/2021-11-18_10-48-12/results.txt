@@ -1,0 +1,239 @@
+Date : 2021-11-18 10:48:12
+Directory : c:\Users\kenz\3D Objects\geekcycle
+Total : 164 files,  2458 codes, 923 comments, 654 blanks, all 4035 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| Ruby ERB   |         33 |        815 |          1 |        125 |        941 |
+| Ruby       |         93 |        724 |        781 |        381 |      1,886 |
+| YAML       |         14 |        232 |         88 |         54 |        374 |
+| SCSS       |          8 |        229 |         25 |         36 |        290 |
+| HTML       |          3 |        182 |          3 |         18 |        203 |
+| CSS        |          1 |        132 |         15 |          3 |        150 |
+| JavaScript |         10 |        114 |         10 |         24 |        148 |
+| JSON       |          1 |         17 |          0 |          1 |         18 |
+| Markdown   |          1 |         13 |          0 |         12 |         25 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                           | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                              |        164 |      2,458 |        923 |        654 |      4,035 |
+| app                                                                                            |         83 |      1,489 |        252 |        295 |      2,036 |
+| app\assets                                                                                     |         10 |        361 |         42 |         40 |        443 |
+| app\assets\config                                                                              |          1 |          0 |          2 |          1 |          3 |
+| app\assets\stylesheets                                                                         |          9 |        361 |         40 |         39 |        440 |
+| app\channels                                                                                   |          2 |          8 |          0 |          2 |         10 |
+| app\channels\application_cable                                                                 |          2 |          8 |          0 |          2 |         10 |
+| app\controllers                                                                                |         15 |        202 |        161 |         92 |        455 |
+| app\controllers\users                                                                          |          6 |         18 |        159 |         51 |        228 |
+| app\helpers                                                                                    |          9 |         18 |          0 |          9 |         27 |
+| app\javascript                                                                                 |          3 |         11 |          8 |          8 |         27 |
+| app\javascript\channels                                                                        |          2 |          4 |          4 |          5 |         13 |
+| app\javascript\packs                                                                           |          1 |          7 |          4 |          3 |         14 |
+| app\jobs                                                                                       |          1 |          2 |          4 |          2 |          8 |
+| app\mailers                                                                                    |          1 |          4 |          0 |          1 |          5 |
+| app\models                                                                                     |          8 |         55 |          2 |          8 |         65 |
+| app\uploaders                                                                                  |          1 |         13 |         34 |          8 |         55 |
+| app\views                                                                                      |         33 |        815 |          1 |        125 |        941 |
+| app\views\camps                                                                                |          6 |        235 |          0 |         22 |        257 |
+| app\views\hello                                                                                |          2 |         40 |          0 |          2 |         42 |
+| app\views\layouts                                                                              |          3 |         57 |          1 |          6 |         64 |
+| app\views\tours                                                                                |          7 |        248 |          0 |         20 |        268 |
+| app\views\users                                                                                |         15 |        235 |          0 |         75 |        310 |
+| app\views\users\confirmations                                                                  |          1 |         12 |          0 |          5 |         17 |
+| app\views\users\mailer                                                                         |          5 |         20 |          0 |         15 |         35 |
+| app\views\users\passwords                                                                      |          2 |         32 |          0 |         11 |         43 |
+| app\views\users\registrations                                                                  |          2 |         69 |          0 |         21 |         90 |
+| app\views\users\sessions                                                                       |          1 |         21 |          0 |          6 |         27 |
+| app\views\users\shared                                                                         |          2 |         35 |          0 |          7 |         42 |
+| app\views\users\unlocks                                                                        |          1 |         12 |          0 |          5 |         17 |
+| config                                                                                         |         31 |        331 |        562 |        216 |      1,109 |
+| config\environments                                                                            |          3 |         71 |        119 |         68 |        258 |
+| config\initializers                                                                            |         12 |         26 |        328 |         85 |        439 |
+| config\locales                                                                                 |          2 |         65 |         31 |          4 |        100 |
+| config\webpack                                                                                 |          4 |         11 |          0 |         11 |         22 |
+| db                                                                                             |         17 |        194 |         39 |         42 |        275 |
+| db\migrate                                                                                     |         15 |        115 |         21 |         31 |        167 |
+| public                                                                                         |          3 |        182 |          3 |         18 |        203 |
+| test                                                                                           |         25 |        137 |         66 |         63 |        266 |
+| test\channels                                                                                  |          1 |          3 |          7 |          2 |         12 |
+| test\channels\application_cable                                                                |          1 |          3 |          7 |          2 |         12 |
+| test\controllers                                                                               |          8 |         48 |         21 |         21 |         90 |
+| test\fixtures                                                                                  |          7 |         54 |         14 |         20 |         88 |
+| test\models                                                                                    |          7 |         21 |         21 |         14 |         56 |
++------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                       | language   | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\kenz\3D Objects\geekcycle\README.md                                                   | Markdown   |         13 |          0 |         12 |         25 |
+| c:\Users\kenz\3D Objects\geekcycle\app\assets\config\manifest.js                               | JavaScript |          0 |          2 |          1 |          3 |
+| c:\Users\kenz\3D Objects\geekcycle\app\assets\stylesheets\application.css                      | CSS        |        132 |         15 |          3 |        150 |
+| c:\Users\kenz\3D Objects\geekcycle\app\assets\stylesheets\camps.scss                           | SCSS       |         15 |          3 |          2 |         20 |
+| c:\Users\kenz\3D Objects\geekcycle\app\assets\stylesheets\comments.scss                        | SCSS       |          0 |          3 |          1 |          4 |
+| c:\Users\kenz\3D Objects\geekcycle\app\assets\stylesheets\hello.scss                           | SCSS       |        142 |          4 |         16 |        162 |
+| c:\Users\kenz\3D Objects\geekcycle\app\assets\stylesheets\likes.scss                           | SCSS       |          0 |          3 |          1 |          4 |
+| c:\Users\kenz\3D Objects\geekcycle\app\assets\stylesheets\loves.scss                           | SCSS       |          0 |          3 |          1 |          4 |
+| c:\Users\kenz\3D Objects\geekcycle\app\assets\stylesheets\reviews.scss                         | SCSS       |          0 |          3 |          1 |          4 |
+| c:\Users\kenz\3D Objects\geekcycle\app\assets\stylesheets\tours.scss                           | SCSS       |         72 |          3 |         13 |         88 |
+| c:\Users\kenz\3D Objects\geekcycle\app\assets\stylesheets\users.scss                           | SCSS       |          0 |          3 |          1 |          4 |
+| c:\Users\kenz\3D Objects\geekcycle\app\channels\application_cable\channel.rb                   | Ruby       |          4 |          0 |          1 |          5 |
+| c:\Users\kenz\3D Objects\geekcycle\app\channels\application_cable\connection.rb                | Ruby       |          4 |          0 |          1 |          5 |
+| c:\Users\kenz\3D Objects\geekcycle\app\controllers\application_controller.rb                   | Ruby       |          8 |          2 |          3 |         13 |
+| c:\Users\kenz\3D Objects\geekcycle\app\controllers\camps_controller.rb                         | Ruby       |         52 |          0 |         10 |         62 |
+| c:\Users\kenz\3D Objects\geekcycle\app\controllers\comments_controller.rb                      | Ruby       |         19 |          0 |          4 |         23 |
+| c:\Users\kenz\3D Objects\geekcycle\app\controllers\goods_controller.rb                         | Ruby       |         11 |          0 |          2 |         13 |
+| c:\Users\kenz\3D Objects\geekcycle\app\controllers\hello_controller.rb                         | Ruby       |          6 |          0 |          3 |          9 |
+| c:\Users\kenz\3D Objects\geekcycle\app\controllers\likes_controller.rb                         | Ruby       |         11 |          0 |          3 |         14 |
+| c:\Users\kenz\3D Objects\geekcycle\app\controllers\reviews_controller.rb                       | Ruby       |         19 |          0 |          5 |         24 |
+| c:\Users\kenz\3D Objects\geekcycle\app\controllers\tours_controller.rb                         | Ruby       |         53 |          0 |         10 |         63 |
+| c:\Users\kenz\3D Objects\geekcycle\app\controllers\users\confirmations_controller.rb           | Ruby       |          2 |         22 |          7 |         31 |
+| c:\Users\kenz\3D Objects\geekcycle\app\controllers\users\omniauth_callbacks_controller.rb      | Ruby       |          2 |         21 |          8 |         31 |
+| c:\Users\kenz\3D Objects\geekcycle\app\controllers\users\passwords_controller.rb               | Ruby       |          2 |         25 |          8 |         35 |
+| c:\Users\kenz\3D Objects\geekcycle\app\controllers\users\registrations_controller.rb           | Ruby       |          8 |         50 |         14 |         72 |
+| c:\Users\kenz\3D Objects\geekcycle\app\controllers\users\sessions_controller.rb                | Ruby       |          2 |         19 |          7 |         28 |
+| c:\Users\kenz\3D Objects\geekcycle\app\controllers\users\unlocks_controller.rb                 | Ruby       |          2 |         22 |          7 |         31 |
+| c:\Users\kenz\3D Objects\geekcycle\app\controllers\users_controller.rb                         | Ruby       |          5 |          0 |          1 |          6 |
+| c:\Users\kenz\3D Objects\geekcycle\app\helpers\application_helper.rb                           | Ruby       |          2 |          0 |          1 |          3 |
+| c:\Users\kenz\3D Objects\geekcycle\app\helpers\camps_helper.rb                                 | Ruby       |          2 |          0 |          1 |          3 |
+| c:\Users\kenz\3D Objects\geekcycle\app\helpers\comments_helper.rb                              | Ruby       |          2 |          0 |          1 |          3 |
+| c:\Users\kenz\3D Objects\geekcycle\app\helpers\hello_helper.rb                                 | Ruby       |          2 |          0 |          1 |          3 |
+| c:\Users\kenz\3D Objects\geekcycle\app\helpers\likes_helper.rb                                 | Ruby       |          2 |          0 |          1 |          3 |
+| c:\Users\kenz\3D Objects\geekcycle\app\helpers\loves_helper.rb                                 | Ruby       |          2 |          0 |          1 |          3 |
+| c:\Users\kenz\3D Objects\geekcycle\app\helpers\reviews_helper.rb                               | Ruby       |          2 |          0 |          1 |          3 |
+| c:\Users\kenz\3D Objects\geekcycle\app\helpers\tours_helper.rb                                 | Ruby       |          2 |          0 |          1 |          3 |
+| c:\Users\kenz\3D Objects\geekcycle\app\helpers\users_helper.rb                                 | Ruby       |          2 |          0 |          1 |          3 |
+| c:\Users\kenz\3D Objects\geekcycle\app\javascript\channels\consumer.js                         | JavaScript |          2 |          2 |          3 |          7 |
+| c:\Users\kenz\3D Objects\geekcycle\app\javascript\channels\index.js                            | JavaScript |          2 |          2 |          2 |          6 |
+| c:\Users\kenz\3D Objects\geekcycle\app\javascript\packs\application.js                         | JavaScript |          7 |          4 |          3 |         14 |
+| c:\Users\kenz\3D Objects\geekcycle\app\jobs\application_job.rb                                 | Ruby       |          2 |          4 |          2 |          8 |
+| c:\Users\kenz\3D Objects\geekcycle\app\mailers\application_mailer.rb                           | Ruby       |          4 |          0 |          1 |          5 |
+| c:\Users\kenz\3D Objects\geekcycle\app\models\application_record.rb                            | Ruby       |          3 |          0 |          1 |          4 |
+| c:\Users\kenz\3D Objects\geekcycle\app\models\camp.rb                                          | Ruby       |          7 |          0 |          1 |          8 |
+| c:\Users\kenz\3D Objects\geekcycle\app\models\comment.rb                                       | Ruby       |          4 |          0 |          1 |          5 |
+| c:\Users\kenz\3D Objects\geekcycle\app\models\good.rb                                          | Ruby       |          5 |          0 |          1 |          6 |
+| c:\Users\kenz\3D Objects\geekcycle\app\models\like.rb                                          | Ruby       |          5 |          0 |          1 |          6 |
+| c:\Users\kenz\3D Objects\geekcycle\app\models\review.rb                                        | Ruby       |          4 |          0 |          1 |          5 |
+| c:\Users\kenz\3D Objects\geekcycle\app\models\tour.rb                                          | Ruby       |          7 |          0 |          1 |          8 |
+| c:\Users\kenz\3D Objects\geekcycle\app\models\user.rb                                          | Ruby       |         20 |          2 |          1 |         23 |
+| c:\Users\kenz\3D Objects\geekcycle\app\uploaders\image_uploader.rb                             | Ruby       |         13 |         34 |          8 |         55 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\camps\create.html.erb                             | Ruby ERB   |          2 |          0 |          1 |          3 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\camps\destroy.html.erb                            | Ruby ERB   |          2 |          0 |          1 |          3 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\camps\edit.html.erb                               | Ruby ERB   |         40 |          0 |          5 |         45 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\camps\index.html.erb                              | Ruby ERB   |         90 |          0 |          5 |         95 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\camps\new.html.erb                                | Ruby ERB   |         42 |          0 |          5 |         47 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\camps\show.html.erb                               | Ruby ERB   |         59 |          0 |          5 |         64 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\hello\about.html.erb                              | Ruby ERB   |          0 |          0 |          1 |          1 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\hello\index.html.erb                              | Ruby ERB   |         40 |          0 |          1 |         41 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\layouts\application.html.erb                      | Ruby ERB   |         45 |          0 |          3 |         48 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\layouts\mailer.html.erb                           | Ruby ERB   |         11 |          1 |          2 |         14 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\layouts\mailer.text.erb                           | Ruby ERB   |          1 |          0 |          1 |          2 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\tours\create.html.erb                             | Ruby ERB   |          2 |          0 |          1 |          3 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\tours\destroy.html.erb                            | Ruby ERB   |          2 |          0 |          1 |          3 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\tours\edit.html.erb                               | Ruby ERB   |         41 |          0 |          5 |         46 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\tours\index.html.erb                              | Ruby ERB   |         90 |          0 |          6 |         96 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\tours\index2.html.erb                             | Ruby ERB   |          2 |          0 |          1 |          3 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\tours\new.html.erb                                | Ruby ERB   |         43 |          0 |          5 |         48 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\tours\show.html.erb                               | Ruby ERB   |         68 |          0 |          1 |         69 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\users\confirmations\new.html.erb                  | Ruby ERB   |         12 |          0 |          5 |         17 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\users\mailer\confirmation_instructions.html.erb   | Ruby ERB   |          3 |          0 |          3 |          6 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\users\mailer\email_changed.html.erb               | Ruby ERB   |          6 |          0 |          2 |          8 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\users\mailer\password_change.html.erb             | Ruby ERB   |          2 |          0 |          2 |          4 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\users\mailer\reset_password_instructions.html.erb | Ruby ERB   |          5 |          0 |          4 |          9 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\users\mailer\unlock_instructions.html.erb         | Ruby ERB   |          4 |          0 |          4 |          8 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\users\passwords\edit.html.erb                     | Ruby ERB   |         20 |          0 |          6 |         26 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\users\passwords\new.html.erb                      | Ruby ERB   |         12 |          0 |          5 |         17 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\users\registrations\edit.html.erb                 | Ruby ERB   |         42 |          0 |         13 |         55 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\users\registrations\new.html.erb                  | Ruby ERB   |         27 |          0 |          8 |         35 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\users\sessions\new.html.erb                       | Ruby ERB   |         21 |          0 |          6 |         27 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\users\shared\_error_messages.html.erb             | Ruby ERB   |         15 |          0 |          1 |         16 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\users\shared\_links.html.erb                      | Ruby ERB   |         20 |          0 |          6 |         26 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\users\show.html.erb                               | Ruby ERB   |         34 |          0 |          5 |         39 |
+| c:\Users\kenz\3D Objects\geekcycle\app\views\users\unlocks\new.html.erb                        | Ruby ERB   |         12 |          0 |          5 |         17 |
+| c:\Users\kenz\3D Objects\geekcycle\babel.config.js                                             | JavaScript |         80 |          0 |          3 |         83 |
+| c:\Users\kenz\3D Objects\geekcycle\config.ru                                                   | Ruby       |          3 |          1 |          3 |          7 |
+| c:\Users\kenz\3D Objects\geekcycle\config\application.rb                                       | Ruby       |          9 |         10 |          5 |         24 |
+| c:\Users\kenz\3D Objects\geekcycle\config\boot.rb                                              | Ruby       |          3 |          0 |          2 |          5 |
+| c:\Users\kenz\3D Objects\geekcycle\config\cable.yml                                            | YAML       |          8 |          0 |          3 |         11 |
+| c:\Users\kenz\3D Objects\geekcycle\config\cloudinary.yml                                       | YAML       |         18 |          0 |          1 |         19 |
+| c:\Users\kenz\3D Objects\geekcycle\config\database.yml                                         | YAML       |         15 |          9 |          4 |         28 |
+| c:\Users\kenz\3D Objects\geekcycle\config\environment.rb                                       | Ruby       |          2 |          2 |          2 |          6 |
+| c:\Users\kenz\3D Objects\geekcycle\config\environments\development.rb                          | Ruby       |         27 |         28 |         22 |         77 |
+| c:\Users\kenz\3D Objects\geekcycle\config\environments\production.rb                           | Ruby       |         24 |         68 |         29 |        121 |
+| c:\Users\kenz\3D Objects\geekcycle\config\environments\test.rb                                 | Ruby       |         20 |         23 |         17 |         60 |
+| c:\Users\kenz\3D Objects\geekcycle\config\initializers\application_controller_renderer.rb      | Ruby       |          0 |          7 |          2 |          9 |
+| c:\Users\kenz\3D Objects\geekcycle\config\initializers\assets.rb                               | Ruby       |          2 |          9 |          4 |         15 |
+| c:\Users\kenz\3D Objects\geekcycle\config\initializers\backtrace_silencers.rb                  | Ruby       |          1 |          5 |          3 |          9 |
+| c:\Users\kenz\3D Objects\geekcycle\config\initializers\content_security_policy.rb              | Ruby       |          0 |         24 |          7 |         31 |
+| c:\Users\kenz\3D Objects\geekcycle\config\initializers\cookies_serializer.rb                   | Ruby       |          1 |          3 |          2 |          6 |
+| c:\Users\kenz\3D Objects\geekcycle\config\initializers\devise.rb                               | Ruby       |         15 |        242 |         55 |        312 |
+| c:\Users\kenz\3D Objects\geekcycle\config\initializers\filter_parameter_logging.rb             | Ruby       |          3 |          2 |          2 |          7 |
+| c:\Users\kenz\3D Objects\geekcycle\config\initializers\inflections.rb                          | Ruby       |          0 |         14 |          3 |         17 |
+| c:\Users\kenz\3D Objects\geekcycle\config\initializers\mime_types.rb                           | Ruby       |          0 |          3 |          2 |          5 |
+| c:\Users\kenz\3D Objects\geekcycle\config\initializers\permissions_policy.rb                   | Ruby       |          0 |         11 |          1 |         12 |
+| c:\Users\kenz\3D Objects\geekcycle\config\initializers\time_formats.rb                         | Ruby       |          1 |          0 |          0 |          1 |
+| c:\Users\kenz\3D Objects\geekcycle\config\initializers\wrap_parameters.rb                      | Ruby       |          3 |          8 |          4 |         15 |
+| c:\Users\kenz\3D Objects\geekcycle\config\locales\devise.en.yml                                | YAML       |         63 |          1 |          2 |         66 |
+| c:\Users\kenz\3D Objects\geekcycle\config\locales\en.yml                                       | YAML       |          2 |         30 |          2 |         34 |
+| c:\Users\kenz\3D Objects\geekcycle\config\puma.rb                                              | Ruby       |          8 |         28 |          8 |         44 |
+| c:\Users\kenz\3D Objects\geekcycle\config\routes.rb                                            | Ruby       |         23 |          1 |          1 |         25 |
+| c:\Users\kenz\3D Objects\geekcycle\config\storage.yml                                          | YAML       |          6 |         23 |          6 |         35 |
+| c:\Users\kenz\3D Objects\geekcycle\config\webpack\development.js                               | JavaScript |          3 |          0 |          3 |          6 |
+| c:\Users\kenz\3D Objects\geekcycle\config\webpack\environment.js                               | JavaScript |          2 |          0 |          2 |          4 |
+| c:\Users\kenz\3D Objects\geekcycle\config\webpack\production.js                                | JavaScript |          3 |          0 |          3 |          6 |
+| c:\Users\kenz\3D Objects\geekcycle\config\webpack\test.js                                      | JavaScript |          3 |          0 |          3 |          6 |
+| c:\Users\kenz\3D Objects\geekcycle\config\webpacker.yml                                        | YAML       |         66 |         11 |         16 |         93 |
+| c:\Users\kenz\3D Objects\geekcycle\db\migrate\20210904070932_devise_create_users.rb            | Ruby       |         14 |         21 |         10 |         45 |
+| c:\Users\kenz\3D Objects\geekcycle\db\migrate\20210905034736_create_tours.rb                   | Ruby       |         11 |          0 |          2 |         13 |
+| c:\Users\kenz\3D Objects\geekcycle\db\migrate\20210911072930_add_image_to_tours.rb             | Ruby       |          5 |          0 |          1 |          6 |
+| c:\Users\kenz\3D Objects\geekcycle\db\migrate\20210911103131_add_user_id_to_tours.rb           | Ruby       |          5 |          0 |          1 |          6 |
+| c:\Users\kenz\3D Objects\geekcycle\db\migrate\20210911104830_create_likes.rb                   | Ruby       |          9 |          0 |          2 |         11 |
+| c:\Users\kenz\3D Objects\geekcycle\db\migrate\20210918091204_create_comments.rb                | Ruby       |         10 |          0 |          2 |         12 |
+| c:\Users\kenz\3D Objects\geekcycle\db\migrate\20210918102856_add_details_to_users.rb           | Ruby       |          6 |          0 |          1 |          7 |
+| c:\Users\kenz\3D Objects\geekcycle\db\migrate\20210918154127_create_camps.rb                   | Ruby       |         11 |          0 |          2 |         13 |
+| c:\Users\kenz\3D Objects\geekcycle\db\migrate\20210918162440_add_user_id_to_camps.rb           | Ruby       |          5 |          0 |          1 |          6 |
+| c:\Users\kenz\3D Objects\geekcycle\db\migrate\20210918162746_add_image_to_camps.rb             | Ruby       |          5 |          0 |          1 |          6 |
+| c:\Users\kenz\3D Objects\geekcycle\db\migrate\20210920112033_create_loves.rb                   | Ruby       |          9 |          0 |          3 |         12 |
+| c:\Users\kenz\3D Objects\geekcycle\db\migrate\20210923001814_change.rb                         | Ruby       |          5 |          0 |          1 |          6 |
+| c:\Users\kenz\3D Objects\geekcycle\db\migrate\20210923004047_create_reviews.rb                 | Ruby       |         10 |          0 |          2 |         12 |
+| c:\Users\kenz\3D Objects\geekcycle\db\migrate\20210924025957_add_site_to_tours.rb              | Ruby       |          5 |          0 |          1 |          6 |
+| c:\Users\kenz\3D Objects\geekcycle\db\migrate\20211016090356_add_site_to_camps.rb              | Ruby       |          5 |          0 |          1 |          6 |
+| c:\Users\kenz\3D Objects\geekcycle\db\schema.rb                                                | Ruby       |         79 |         11 |         10 |        100 |
+| c:\Users\kenz\3D Objects\geekcycle\db\seeds.rb                                                 | Ruby       |          0 |          7 |          1 |          8 |
+| c:\Users\kenz\3D Objects\geekcycle\package.json                                                | JSON       |         17 |          0 |          1 |         18 |
+| c:\Users\kenz\3D Objects\geekcycle\postcss.config.js                                           | JavaScript |         12 |          0 |          1 |         13 |
+| c:\Users\kenz\3D Objects\geekcycle\public\404.html                                             | HTML       |         61 |          1 |          6 |         68 |
+| c:\Users\kenz\3D Objects\geekcycle\public\422.html                                             | HTML       |         61 |          1 |          6 |         68 |
+| c:\Users\kenz\3D Objects\geekcycle\public\500.html                                             | HTML       |         60 |          1 |          6 |         67 |
+| c:\Users\kenz\3D Objects\geekcycle\test\application_system_test_case.rb                        | Ruby       |          4 |          0 |          2 |          6 |
+| c:\Users\kenz\3D Objects\geekcycle\test\channels\application_cable\connection_test.rb          | Ruby       |          3 |          7 |          2 |         12 |
+| c:\Users\kenz\3D Objects\geekcycle\test\controllers\camps_controller_test.rb                   | Ruby       |          3 |          3 |          2 |          8 |
+| c:\Users\kenz\3D Objects\geekcycle\test\controllers\comments_controller_test.rb                | Ruby       |          3 |          3 |          2 |          8 |
+| c:\Users\kenz\3D Objects\geekcycle\test\controllers\hello_controller_test.rb                   | Ruby       |          3 |          3 |          2 |          8 |
+| c:\Users\kenz\3D Objects\geekcycle\test\controllers\likes_controller_test.rb                   | Ruby       |          3 |          3 |          2 |          8 |
+| c:\Users\kenz\3D Objects\geekcycle\test\controllers\loves_controller_test.rb                   | Ruby       |          3 |          3 |          2 |          8 |
+| c:\Users\kenz\3D Objects\geekcycle\test\controllers\reviews_controller_test.rb                 | Ruby       |          3 |          3 |          2 |          8 |
+| c:\Users\kenz\3D Objects\geekcycle\test\controllers\tours_controller_test.rb                   | Ruby       |         27 |          0 |          7 |         34 |
+| c:\Users\kenz\3D Objects\geekcycle\test\controllers\users_controller_test.rb                   | Ruby       |          3 |          3 |          2 |          8 |
+| c:\Users\kenz\3D Objects\geekcycle\test\fixtures\camps.yml                                     | YAML       |         10 |          1 |          3 |         14 |
+| c:\Users\kenz\3D Objects\geekcycle\test\fixtures\comments.yml                                  | YAML       |          8 |          1 |          3 |         12 |
+| c:\Users\kenz\3D Objects\geekcycle\test\fixtures\likes.yml                                     | YAML       |          6 |          1 |          3 |         10 |
+| c:\Users\kenz\3D Objects\geekcycle\test\fixtures\loves.yml                                     | YAML       |          8 |          1 |          3 |         12 |
+| c:\Users\kenz\3D Objects\geekcycle\test\fixtures\reviews.yml                                   | YAML       |          8 |          1 |          3 |         12 |
+| c:\Users\kenz\3D Objects\geekcycle\test\fixtures\tours.yml                                     | YAML       |         12 |          1 |          3 |         16 |
+| c:\Users\kenz\3D Objects\geekcycle\test\fixtures\users.yml                                     | YAML       |          2 |          8 |          2 |         12 |
+| c:\Users\kenz\3D Objects\geekcycle\test\models\camp_test.rb                                    | Ruby       |          3 |          3 |          2 |          8 |
+| c:\Users\kenz\3D Objects\geekcycle\test\models\comment_test.rb                                 | Ruby       |          3 |          3 |          2 |          8 |
+| c:\Users\kenz\3D Objects\geekcycle\test\models\like_test.rb                                    | Ruby       |          3 |          3 |          2 |          8 |
+| c:\Users\kenz\3D Objects\geekcycle\test\models\love_test.rb                                    | Ruby       |          3 |          3 |          2 |          8 |
+| c:\Users\kenz\3D Objects\geekcycle\test\models\review_test.rb                                  | Ruby       |          3 |          3 |          2 |          8 |
+| c:\Users\kenz\3D Objects\geekcycle\test\models\tour_test.rb                                    | Ruby       |          3 |          3 |          2 |          8 |
+| c:\Users\kenz\3D Objects\geekcycle\test\models\user_test.rb                                    | Ruby       |          3 |          3 |          2 |          8 |
+| c:\Users\kenz\3D Objects\geekcycle\test\test_helper.rb                                         | Ruby       |          7 |          3 |          4 |         14 |
+| Total                                                                                          |            |      2,458 |        923 |        654 |      4,035 |
++------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

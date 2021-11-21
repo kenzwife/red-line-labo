@@ -1,0 +1,166 @@
+"filename", "language", "Ruby", "YAML", "JavaScript", "Markdown", "HTML", "JSON", "SCSS", "Ruby ERB", "CSS", "comment", "blank", "total"
+"c:\Users\kenz\3D Objects\geekcycle\README.md", "Markdown", 0, 0, 0, 13, 0, 0, 0, 0, 0, 0, 12, 25
+"c:\Users\kenz\3D Objects\geekcycle\app\assets\config\manifest.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 3
+"c:\Users\kenz\3D Objects\geekcycle\app\assets\stylesheets\application.css", "CSS", 0, 0, 0, 0, 0, 0, 0, 0, 132, 15, 3, 150
+"c:\Users\kenz\3D Objects\geekcycle\app\assets\stylesheets\camps.scss", "SCSS", 0, 0, 0, 0, 0, 0, 15, 0, 0, 3, 2, 20
+"c:\Users\kenz\3D Objects\geekcycle\app\assets\stylesheets\comments.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 1, 4
+"c:\Users\kenz\3D Objects\geekcycle\app\assets\stylesheets\hello.scss", "SCSS", 0, 0, 0, 0, 0, 0, 142, 0, 0, 4, 16, 162
+"c:\Users\kenz\3D Objects\geekcycle\app\assets\stylesheets\likes.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 1, 4
+"c:\Users\kenz\3D Objects\geekcycle\app\assets\stylesheets\loves.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 1, 4
+"c:\Users\kenz\3D Objects\geekcycle\app\assets\stylesheets\reviews.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 1, 4
+"c:\Users\kenz\3D Objects\geekcycle\app\assets\stylesheets\tours.scss", "SCSS", 0, 0, 0, 0, 0, 0, 72, 0, 0, 3, 13, 88
+"c:\Users\kenz\3D Objects\geekcycle\app\assets\stylesheets\users.scss", "SCSS", 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 1, 4
+"c:\Users\kenz\3D Objects\geekcycle\app\channels\application_cable\channel.rb", "Ruby", 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 5
+"c:\Users\kenz\3D Objects\geekcycle\app\channels\application_cable\connection.rb", "Ruby", 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 5
+"c:\Users\kenz\3D Objects\geekcycle\app\controllers\application_controller.rb", "Ruby", 8, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 13
+"c:\Users\kenz\3D Objects\geekcycle\app\controllers\camps_controller.rb", "Ruby", 52, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 62
+"c:\Users\kenz\3D Objects\geekcycle\app\controllers\comments_controller.rb", "Ruby", 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 23
+"c:\Users\kenz\3D Objects\geekcycle\app\controllers\goods_controller.rb", "Ruby", 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 13
+"c:\Users\kenz\3D Objects\geekcycle\app\controllers\hello_controller.rb", "Ruby", 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 9
+"c:\Users\kenz\3D Objects\geekcycle\app\controllers\likes_controller.rb", "Ruby", 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 14
+"c:\Users\kenz\3D Objects\geekcycle\app\controllers\reviews_controller.rb", "Ruby", 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 24
+"c:\Users\kenz\3D Objects\geekcycle\app\controllers\tours_controller.rb", "Ruby", 53, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 63
+"c:\Users\kenz\3D Objects\geekcycle\app\controllers\users\confirmations_controller.rb", "Ruby", 2, 0, 0, 0, 0, 0, 0, 0, 0, 22, 7, 31
+"c:\Users\kenz\3D Objects\geekcycle\app\controllers\users\omniauth_callbacks_controller.rb", "Ruby", 2, 0, 0, 0, 0, 0, 0, 0, 0, 21, 8, 31
+"c:\Users\kenz\3D Objects\geekcycle\app\controllers\users\passwords_controller.rb", "Ruby", 2, 0, 0, 0, 0, 0, 0, 0, 0, 25, 8, 35
+"c:\Users\kenz\3D Objects\geekcycle\app\controllers\users\registrations_controller.rb", "Ruby", 8, 0, 0, 0, 0, 0, 0, 0, 0, 50, 14, 72
+"c:\Users\kenz\3D Objects\geekcycle\app\controllers\users\sessions_controller.rb", "Ruby", 2, 0, 0, 0, 0, 0, 0, 0, 0, 19, 7, 28
+"c:\Users\kenz\3D Objects\geekcycle\app\controllers\users\unlocks_controller.rb", "Ruby", 2, 0, 0, 0, 0, 0, 0, 0, 0, 22, 7, 31
+"c:\Users\kenz\3D Objects\geekcycle\app\controllers\users_controller.rb", "Ruby", 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 6
+"c:\Users\kenz\3D Objects\geekcycle\app\helpers\application_helper.rb", "Ruby", 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3
+"c:\Users\kenz\3D Objects\geekcycle\app\helpers\camps_helper.rb", "Ruby", 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3
+"c:\Users\kenz\3D Objects\geekcycle\app\helpers\comments_helper.rb", "Ruby", 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3
+"c:\Users\kenz\3D Objects\geekcycle\app\helpers\hello_helper.rb", "Ruby", 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3
+"c:\Users\kenz\3D Objects\geekcycle\app\helpers\likes_helper.rb", "Ruby", 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3
+"c:\Users\kenz\3D Objects\geekcycle\app\helpers\loves_helper.rb", "Ruby", 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3
+"c:\Users\kenz\3D Objects\geekcycle\app\helpers\reviews_helper.rb", "Ruby", 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3
+"c:\Users\kenz\3D Objects\geekcycle\app\helpers\tours_helper.rb", "Ruby", 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3
+"c:\Users\kenz\3D Objects\geekcycle\app\helpers\users_helper.rb", "Ruby", 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3
+"c:\Users\kenz\3D Objects\geekcycle\app\javascript\channels\consumer.js", "JavaScript", 0, 0, 2, 0, 0, 0, 0, 0, 0, 2, 3, 7
+"c:\Users\kenz\3D Objects\geekcycle\app\javascript\channels\index.js", "JavaScript", 0, 0, 2, 0, 0, 0, 0, 0, 0, 2, 2, 6
+"c:\Users\kenz\3D Objects\geekcycle\app\javascript\packs\application.js", "JavaScript", 0, 0, 7, 0, 0, 0, 0, 0, 0, 4, 3, 14
+"c:\Users\kenz\3D Objects\geekcycle\app\jobs\application_job.rb", "Ruby", 2, 0, 0, 0, 0, 0, 0, 0, 0, 4, 2, 8
+"c:\Users\kenz\3D Objects\geekcycle\app\mailers\application_mailer.rb", "Ruby", 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 5
+"c:\Users\kenz\3D Objects\geekcycle\app\models\application_record.rb", "Ruby", 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 4
+"c:\Users\kenz\3D Objects\geekcycle\app\models\camp.rb", "Ruby", 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 8
+"c:\Users\kenz\3D Objects\geekcycle\app\models\comment.rb", "Ruby", 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 5
+"c:\Users\kenz\3D Objects\geekcycle\app\models\good.rb", "Ruby", 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 6
+"c:\Users\kenz\3D Objects\geekcycle\app\models\like.rb", "Ruby", 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 6
+"c:\Users\kenz\3D Objects\geekcycle\app\models\review.rb", "Ruby", 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 5
+"c:\Users\kenz\3D Objects\geekcycle\app\models\tour.rb", "Ruby", 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 8
+"c:\Users\kenz\3D Objects\geekcycle\app\models\user.rb", "Ruby", 20, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 23
+"c:\Users\kenz\3D Objects\geekcycle\app\uploaders\image_uploader.rb", "Ruby", 13, 0, 0, 0, 0, 0, 0, 0, 0, 34, 8, 55
+"c:\Users\kenz\3D Objects\geekcycle\app\views\camps\create.html.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 1, 3
+"c:\Users\kenz\3D Objects\geekcycle\app\views\camps\destroy.html.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 1, 3
+"c:\Users\kenz\3D Objects\geekcycle\app\views\camps\edit.html.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 40, 0, 0, 5, 45
+"c:\Users\kenz\3D Objects\geekcycle\app\views\camps\index.html.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 90, 0, 0, 5, 95
+"c:\Users\kenz\3D Objects\geekcycle\app\views\camps\new.html.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 42, 0, 0, 5, 47
+"c:\Users\kenz\3D Objects\geekcycle\app\views\camps\show.html.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 59, 0, 0, 5, 64
+"c:\Users\kenz\3D Objects\geekcycle\app\views\hello\about.html.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\kenz\3D Objects\geekcycle\app\views\hello\index.html.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 40, 0, 0, 1, 41
+"c:\Users\kenz\3D Objects\geekcycle\app\views\layouts\application.html.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 45, 0, 0, 3, 48
+"c:\Users\kenz\3D Objects\geekcycle\app\views\layouts\mailer.html.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 11, 0, 1, 2, 14
+"c:\Users\kenz\3D Objects\geekcycle\app\views\layouts\mailer.text.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 2
+"c:\Users\kenz\3D Objects\geekcycle\app\views\tours\create.html.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 1, 3
+"c:\Users\kenz\3D Objects\geekcycle\app\views\tours\destroy.html.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 1, 3
+"c:\Users\kenz\3D Objects\geekcycle\app\views\tours\edit.html.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 41, 0, 0, 5, 46
+"c:\Users\kenz\3D Objects\geekcycle\app\views\tours\index.html.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 90, 0, 0, 6, 96
+"c:\Users\kenz\3D Objects\geekcycle\app\views\tours\index2.html.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 1, 3
+"c:\Users\kenz\3D Objects\geekcycle\app\views\tours\new.html.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 43, 0, 0, 5, 48
+"c:\Users\kenz\3D Objects\geekcycle\app\views\tours\show.html.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 68, 0, 0, 1, 69
+"c:\Users\kenz\3D Objects\geekcycle\app\views\users\confirmations\new.html.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 5, 17
+"c:\Users\kenz\3D Objects\geekcycle\app\views\users\mailer\confirmation_instructions.html.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 3, 6
+"c:\Users\kenz\3D Objects\geekcycle\app\views\users\mailer\email_changed.html.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 2, 8
+"c:\Users\kenz\3D Objects\geekcycle\app\views\users\mailer\password_change.html.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 2, 4
+"c:\Users\kenz\3D Objects\geekcycle\app\views\users\mailer\reset_password_instructions.html.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 4, 9
+"c:\Users\kenz\3D Objects\geekcycle\app\views\users\mailer\unlock_instructions.html.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 4, 8
+"c:\Users\kenz\3D Objects\geekcycle\app\views\users\passwords\edit.html.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 20, 0, 0, 6, 26
+"c:\Users\kenz\3D Objects\geekcycle\app\views\users\passwords\new.html.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 5, 17
+"c:\Users\kenz\3D Objects\geekcycle\app\views\users\registrations\edit.html.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 42, 0, 0, 13, 55
+"c:\Users\kenz\3D Objects\geekcycle\app\views\users\registrations\new.html.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 8, 35
+"c:\Users\kenz\3D Objects\geekcycle\app\views\users\sessions\new.html.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 21, 0, 0, 6, 27
+"c:\Users\kenz\3D Objects\geekcycle\app\views\users\shared\_error_messages.html.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 15, 0, 0, 1, 16
+"c:\Users\kenz\3D Objects\geekcycle\app\views\users\shared\_links.html.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 20, 0, 0, 6, 26
+"c:\Users\kenz\3D Objects\geekcycle\app\views\users\show.html.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 34, 0, 0, 5, 39
+"c:\Users\kenz\3D Objects\geekcycle\app\views\users\unlocks\new.html.erb", "Ruby ERB", 0, 0, 0, 0, 0, 0, 0, 12, 0, 0, 5, 17
+"c:\Users\kenz\3D Objects\geekcycle\babel.config.js", "JavaScript", 0, 0, 80, 0, 0, 0, 0, 0, 0, 0, 3, 83
+"c:\Users\kenz\3D Objects\geekcycle\config.ru", "Ruby", 3, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 7
+"c:\Users\kenz\3D Objects\geekcycle\config\application.rb", "Ruby", 9, 0, 0, 0, 0, 0, 0, 0, 0, 10, 5, 24
+"c:\Users\kenz\3D Objects\geekcycle\config\boot.rb", "Ruby", 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 5
+"c:\Users\kenz\3D Objects\geekcycle\config\cable.yml", "YAML", 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 3, 11
+"c:\Users\kenz\3D Objects\geekcycle\config\cloudinary.yml", "YAML", 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 1, 19
+"c:\Users\kenz\3D Objects\geekcycle\config\database.yml", "YAML", 0, 15, 0, 0, 0, 0, 0, 0, 0, 9, 4, 28
+"c:\Users\kenz\3D Objects\geekcycle\config\environment.rb", "Ruby", 2, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 6
+"c:\Users\kenz\3D Objects\geekcycle\config\environments\development.rb", "Ruby", 27, 0, 0, 0, 0, 0, 0, 0, 0, 28, 22, 77
+"c:\Users\kenz\3D Objects\geekcycle\config\environments\production.rb", "Ruby", 24, 0, 0, 0, 0, 0, 0, 0, 0, 68, 29, 121
+"c:\Users\kenz\3D Objects\geekcycle\config\environments\test.rb", "Ruby", 20, 0, 0, 0, 0, 0, 0, 0, 0, 23, 17, 60
+"c:\Users\kenz\3D Objects\geekcycle\config\initializers\application_controller_renderer.rb", "Ruby", 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 2, 9
+"c:\Users\kenz\3D Objects\geekcycle\config\initializers\assets.rb", "Ruby", 2, 0, 0, 0, 0, 0, 0, 0, 0, 9, 4, 15
+"c:\Users\kenz\3D Objects\geekcycle\config\initializers\backtrace_silencers.rb", "Ruby", 1, 0, 0, 0, 0, 0, 0, 0, 0, 5, 3, 9
+"c:\Users\kenz\3D Objects\geekcycle\config\initializers\content_security_policy.rb", "Ruby", 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 7, 31
+"c:\Users\kenz\3D Objects\geekcycle\config\initializers\cookies_serializer.rb", "Ruby", 1, 0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 6
+"c:\Users\kenz\3D Objects\geekcycle\config\initializers\devise.rb", "Ruby", 15, 0, 0, 0, 0, 0, 0, 0, 0, 242, 55, 312
+"c:\Users\kenz\3D Objects\geekcycle\config\initializers\filter_parameter_logging.rb", "Ruby", 3, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 7
+"c:\Users\kenz\3D Objects\geekcycle\config\initializers\inflections.rb", "Ruby", 0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 3, 17
+"c:\Users\kenz\3D Objects\geekcycle\config\initializers\mime_types.rb", "Ruby", 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 5
+"c:\Users\kenz\3D Objects\geekcycle\config\initializers\permissions_policy.rb", "Ruby", 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 1, 12
+"c:\Users\kenz\3D Objects\geekcycle\config\initializers\time_formats.rb", "Ruby", 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1
+"c:\Users\kenz\3D Objects\geekcycle\config\initializers\wrap_parameters.rb", "Ruby", 3, 0, 0, 0, 0, 0, 0, 0, 0, 8, 4, 15
+"c:\Users\kenz\3D Objects\geekcycle\config\locales\devise.en.yml", "YAML", 0, 63, 0, 0, 0, 0, 0, 0, 0, 1, 2, 66
+"c:\Users\kenz\3D Objects\geekcycle\config\locales\en.yml", "YAML", 0, 2, 0, 0, 0, 0, 0, 0, 0, 30, 2, 34
+"c:\Users\kenz\3D Objects\geekcycle\config\puma.rb", "Ruby", 8, 0, 0, 0, 0, 0, 0, 0, 0, 28, 8, 44
+"c:\Users\kenz\3D Objects\geekcycle\config\routes.rb", "Ruby", 23, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 25
+"c:\Users\kenz\3D Objects\geekcycle\config\storage.yml", "YAML", 0, 6, 0, 0, 0, 0, 0, 0, 0, 23, 6, 35
+"c:\Users\kenz\3D Objects\geekcycle\config\webpack\development.js", "JavaScript", 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 3, 6
+"c:\Users\kenz\3D Objects\geekcycle\config\webpack\environment.js", "JavaScript", 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 2, 4
+"c:\Users\kenz\3D Objects\geekcycle\config\webpack\production.js", "JavaScript", 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 3, 6
+"c:\Users\kenz\3D Objects\geekcycle\config\webpack\test.js", "JavaScript", 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 3, 6
+"c:\Users\kenz\3D Objects\geekcycle\config\webpacker.yml", "YAML", 0, 66, 0, 0, 0, 0, 0, 0, 0, 11, 16, 93
+"c:\Users\kenz\3D Objects\geekcycle\db\migrate\20210904070932_devise_create_users.rb", "Ruby", 14, 0, 0, 0, 0, 0, 0, 0, 0, 21, 10, 45
+"c:\Users\kenz\3D Objects\geekcycle\db\migrate\20210905034736_create_tours.rb", "Ruby", 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 13
+"c:\Users\kenz\3D Objects\geekcycle\db\migrate\20210911072930_add_image_to_tours.rb", "Ruby", 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 6
+"c:\Users\kenz\3D Objects\geekcycle\db\migrate\20210911103131_add_user_id_to_tours.rb", "Ruby", 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 6
+"c:\Users\kenz\3D Objects\geekcycle\db\migrate\20210911104830_create_likes.rb", "Ruby", 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 11
+"c:\Users\kenz\3D Objects\geekcycle\db\migrate\20210918091204_create_comments.rb", "Ruby", 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 12
+"c:\Users\kenz\3D Objects\geekcycle\db\migrate\20210918102856_add_details_to_users.rb", "Ruby", 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 7
+"c:\Users\kenz\3D Objects\geekcycle\db\migrate\20210918154127_create_camps.rb", "Ruby", 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 13
+"c:\Users\kenz\3D Objects\geekcycle\db\migrate\20210918162440_add_user_id_to_camps.rb", "Ruby", 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 6
+"c:\Users\kenz\3D Objects\geekcycle\db\migrate\20210918162746_add_image_to_camps.rb", "Ruby", 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 6
+"c:\Users\kenz\3D Objects\geekcycle\db\migrate\20210920112033_create_loves.rb", "Ruby", 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 12
+"c:\Users\kenz\3D Objects\geekcycle\db\migrate\20210923001814_change.rb", "Ruby", 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 6
+"c:\Users\kenz\3D Objects\geekcycle\db\migrate\20210923004047_create_reviews.rb", "Ruby", 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 12
+"c:\Users\kenz\3D Objects\geekcycle\db\migrate\20210924025957_add_site_to_tours.rb", "Ruby", 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 6
+"c:\Users\kenz\3D Objects\geekcycle\db\migrate\20211016090356_add_site_to_camps.rb", "Ruby", 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 6
+"c:\Users\kenz\3D Objects\geekcycle\db\schema.rb", "Ruby", 79, 0, 0, 0, 0, 0, 0, 0, 0, 11, 10, 100
+"c:\Users\kenz\3D Objects\geekcycle\db\seeds.rb", "Ruby", 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 1, 8
+"c:\Users\kenz\3D Objects\geekcycle\package.json", "JSON", 0, 0, 0, 0, 0, 17, 0, 0, 0, 0, 1, 18
+"c:\Users\kenz\3D Objects\geekcycle\postcss.config.js", "JavaScript", 0, 0, 12, 0, 0, 0, 0, 0, 0, 0, 1, 13
+"c:\Users\kenz\3D Objects\geekcycle\public\404.html", "HTML", 0, 0, 0, 0, 61, 0, 0, 0, 0, 1, 6, 68
+"c:\Users\kenz\3D Objects\geekcycle\public\422.html", "HTML", 0, 0, 0, 0, 61, 0, 0, 0, 0, 1, 6, 68
+"c:\Users\kenz\3D Objects\geekcycle\public\500.html", "HTML", 0, 0, 0, 0, 60, 0, 0, 0, 0, 1, 6, 67
+"c:\Users\kenz\3D Objects\geekcycle\test\application_system_test_case.rb", "Ruby", 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 6
+"c:\Users\kenz\3D Objects\geekcycle\test\channels\application_cable\connection_test.rb", "Ruby", 3, 0, 0, 0, 0, 0, 0, 0, 0, 7, 2, 12
+"c:\Users\kenz\3D Objects\geekcycle\test\controllers\camps_controller_test.rb", "Ruby", 3, 0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 8
+"c:\Users\kenz\3D Objects\geekcycle\test\controllers\comments_controller_test.rb", "Ruby", 3, 0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 8
+"c:\Users\kenz\3D Objects\geekcycle\test\controllers\hello_controller_test.rb", "Ruby", 3, 0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 8
+"c:\Users\kenz\3D Objects\geekcycle\test\controllers\likes_controller_test.rb", "Ruby", 3, 0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 8
+"c:\Users\kenz\3D Objects\geekcycle\test\controllers\loves_controller_test.rb", "Ruby", 3, 0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 8
+"c:\Users\kenz\3D Objects\geekcycle\test\controllers\reviews_controller_test.rb", "Ruby", 3, 0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 8
+"c:\Users\kenz\3D Objects\geekcycle\test\controllers\tours_controller_test.rb", "Ruby", 27, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 34
+"c:\Users\kenz\3D Objects\geekcycle\test\controllers\users_controller_test.rb", "Ruby", 3, 0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 8
+"c:\Users\kenz\3D Objects\geekcycle\test\fixtures\camps.yml", "YAML", 0, 10, 0, 0, 0, 0, 0, 0, 0, 1, 3, 14
+"c:\Users\kenz\3D Objects\geekcycle\test\fixtures\comments.yml", "YAML", 0, 8, 0, 0, 0, 0, 0, 0, 0, 1, 3, 12
+"c:\Users\kenz\3D Objects\geekcycle\test\fixtures\likes.yml", "YAML", 0, 6, 0, 0, 0, 0, 0, 0, 0, 1, 3, 10
+"c:\Users\kenz\3D Objects\geekcycle\test\fixtures\loves.yml", "YAML", 0, 8, 0, 0, 0, 0, 0, 0, 0, 1, 3, 12
+"c:\Users\kenz\3D Objects\geekcycle\test\fixtures\reviews.yml", "YAML", 0, 8, 0, 0, 0, 0, 0, 0, 0, 1, 3, 12
+"c:\Users\kenz\3D Objects\geekcycle\test\fixtures\tours.yml", "YAML", 0, 12, 0, 0, 0, 0, 0, 0, 0, 1, 3, 16
+"c:\Users\kenz\3D Objects\geekcycle\test\fixtures\users.yml", "YAML", 0, 2, 0, 0, 0, 0, 0, 0, 0, 8, 2, 12
+"c:\Users\kenz\3D Objects\geekcycle\test\models\camp_test.rb", "Ruby", 3, 0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 8
+"c:\Users\kenz\3D Objects\geekcycle\test\models\comment_test.rb", "Ruby", 3, 0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 8
+"c:\Users\kenz\3D Objects\geekcycle\test\models\like_test.rb", "Ruby", 3, 0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 8
+"c:\Users\kenz\3D Objects\geekcycle\test\models\love_test.rb", "Ruby", 3, 0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 8
+"c:\Users\kenz\3D Objects\geekcycle\test\models\review_test.rb", "Ruby", 3, 0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 8
+"c:\Users\kenz\3D Objects\geekcycle\test\models\tour_test.rb", "Ruby", 3, 0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 8
+"c:\Users\kenz\3D Objects\geekcycle\test\models\user_test.rb", "Ruby", 3, 0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 8
+"c:\Users\kenz\3D Objects\geekcycle\test\test_helper.rb", "Ruby", 7, 0, 0, 0, 0, 0, 0, 0, 0, 3, 4, 14
+"Total", "-", 724, 232, 114, 13, 182, 17, 229, 815, 132, 923, 654, 4035
